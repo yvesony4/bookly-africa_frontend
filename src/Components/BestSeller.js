@@ -6,10 +6,12 @@ import { AiOutlineHeart } from 'react-icons/ai'
 import { BsBookmark } from 'react-icons/bs'
 import { BsClock } from 'react-icons/bs'
 import { FaBed } from 'react-icons/fa'
+import AfricaMarket from './AfricaMarket'
 
 export default function BestSeller() {
   return (
-    <div className='bg-[#d3f8f2] px-[100px]'>
+    <div>
+        <div className='bg-[#d3f8f2] px-[100px] pt-[20px]'>
 
 <div className='text-[#31ac9e] text-[30px]'><b>BestSeller Hotels</b></div>
         <div className='mb-5'><img className='w-[230px]' src={Vector243} /></div>
@@ -64,6 +66,10 @@ export default function BestSeller() {
    <div>
     <button className='bg-[#2ba189] px-12 ml-[100px] my-8 py-2 rounded text-white'>View All</button>
    </div>
+
+    </div>
+
+<AfricaMarket />
     </div>
   )
 }
