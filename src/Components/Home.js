@@ -8,6 +8,7 @@ import AfricaMarket from './AfricaMarket'
 import BestPromotion from './BestPromotion'
 import CarTrending from './CarTrending'
 import UpComingEvent from './UpComingEvent'
+import PopularDestination from './PopularDestination'
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
     <CarTrending />
     <UpComingEvent />
     <AfricaMarket />
+    <PopularDestination />
    </div>
   )
 }

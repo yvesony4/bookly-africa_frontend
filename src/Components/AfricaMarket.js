@@ -7,7 +7,7 @@ import Group14786 from '../assets/booklimages/homepage/Group14786.png'
 import Maskgroups from '../assets/booklimages/homepage/Maskgroup-1.png'
 export default function AfricaMarket() {
   return (
-    <div className=' px-[100px]'>
+    <div className=''>
         <div className=' flex'>
         <div className=''>
             <img className='' src={Maskgroup} />
