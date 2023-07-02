@@ -24,11 +24,11 @@ export default function BestSeller() {
                 <div className='pt-1'><AiOutlineArrowRight className='text-[#2ba189]' /></div>
             </div>
         </div>
-        <div className='mt-4 flex flex-wrap gap-5 justify-center'>
+        <div className='mt-4 grid grid-cols-3 gap-5 justify-center'>
             {
                 BestSellerData.map((item) => {
                     return(
-                        <div className='bg-white w-[510px] rounded-3xl  pb-[40px]'>
+                        <div className='bg-white rounded-3xl  pb-[40px]'>
                             <div><img className='rounded-3xl w-[510px] h-[300px]' src={item.photo} /></div>
                             <div className='flex justify-between px-6 mt-1'>
                             <div className='flex space-x-2'>
