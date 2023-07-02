@@ -3,7 +3,8 @@ import { HomeStaysData } from './Data/HomeStaysData'
 import { AiTwotoneStar } from 'react-icons/ai'
 import { AiOutlineHeart } from 'react-icons/ai'
 import { BsBookmark } from 'react-icons/bs'
-import { BsClock } from 'react-icons/bs'
+import { BsPeopleFill } from 'react-icons/bs'
+import { TbWash } from 'react-icons/tb'
 import { FaBed } from 'react-icons/fa'
 
 export default function HomeStays() {
@@ -40,8 +41,12 @@ export default function HomeStays() {
                             <div className='bg-[#e6e5e5] h-[3px] mx-6  my-3'></div>
                             <div  className='flex justify-between'>
                             <div className='px-6 flex space-x-2 text-[13px] text-[#858585]'>
-                            <div className='mt-[3px]'><BsClock /></div>
-                            <div>{item.time}</div>
+                            <div className='mt-[3px]'><BsPeopleFill /></div>
+                            <div>{item.peopleNo}</div>
+                            </div>
+                            <div className='px-6 flex space-x-2 text-[13px] text-[#858585]'>
+                            <div className='mt-[3px]'><TbWash /></div>
+                            <div>{item.ShowerNo}</div>
                             </div>
                             <div className='px-6 flex space-x-2 text-[#858585]'>
                             <div className='mt-[3px]'><FaBed /></div>
