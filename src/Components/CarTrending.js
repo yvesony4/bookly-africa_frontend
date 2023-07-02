@@ -11,7 +11,7 @@ import { BiDollar } from 'react-icons/bi'
 
 export default function CarTrending() {
     return (
-        <div className='px-[100px] pt-[60px] bg-[#eeeeee]'>
+        <div className='px-[100px] pt-[60px] bg-gray-200'>
         <div className='flex justify-between'>
             <div className='text-[#2ba189] font-bold text-[25px] mb-3'>Car Trending</div>
             <div className='flex gap-2'>
@@ -19,7 +19,7 @@ export default function CarTrending() {
                 <div className='border rounded-full bg-[#2ba189] border-[#2ba189] p-[10px] w-[40px] h-[40px]'><AiOutlineArrowRight className='text-white' /></div>
             </div>
         </div>
-        <div className='mt-4 grid grid-cols-3 gap-3 justify-center bg-[#eeeeee]'>
+        <div className='mt-4 grid grid-cols-3 gap-3 justify-center bg-gray-200'>
             {
                 CarTrendingData.map((item) => {
                     return(

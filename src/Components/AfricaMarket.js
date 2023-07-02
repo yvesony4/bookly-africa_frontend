@@ -10,7 +10,7 @@ export default function AfricaMarket() {
     <div className=' px-[100px]'>
         <div className=' flex'>
         <div className=''>
-            <img className='h-[230px] w-[600px]' src={Maskgroup} />
+            <img className='' src={Maskgroup} />
         </div>
         <div className='mt-[23px]'>
             <div className='text-[30px] font-bold'>Africa's all in one market place for travelers</div>
@@ -36,7 +36,7 @@ export default function AfricaMarket() {
         </div>
         <div className='flex items-end'>
 
-        <div><img className='w-[500px]' src={Maskgroups} /></div>
+        <div><img className='object-cover' src={Maskgroups} /></div>
         </div>
         </div>
     </div>
