@@ -6,6 +6,7 @@ import { AiOutlineHeart } from 'react-icons/ai'
 import { BsBookmark } from 'react-icons/bs'
 import { BsClock } from 'react-icons/bs'
 import { FaBed } from 'react-icons/fa'
+import { AiOutlineArrowRight } from 'react-icons/ai'
 import AfricaMarket from './AfricaMarket'
 
 export default function BestSeller() {
@@ -13,8 +14,16 @@ export default function BestSeller() {
     <div>
         <div className='bg-[#d3f8f2] px-[100px] pt-[20px]'>
 
-<div className='text-[#31ac9e] text-[30px]'><b>BestSeller Hotels</b></div>
-        <div className='mb-5'><img className='w-[230px]' src={Vector243} /></div>
+        <div className='flex justify-between'>
+            <div>
+                <div className='text-[#31ac9e] text-[30px]'><b>BestSeller Hotels</b></div>
+                <div className='mb-5'><img className='w-[230px]' src={Vector243} /></div>
+            </div>
+            <div className='flex gap-2 pt-3'>
+                <div>See All</div>
+                <div className='pt-1'><AiOutlineArrowRight className='text-[#2ba189]' /></div>
+            </div>
+        </div>
         <div className='mt-4 flex flex-wrap gap-5 justify-center'>
             {
                 BestSellerData.map((item) => {
