@@ -1,5 +1,5 @@
 import React from 'react'
-import { HomeStaysData } from './Data/HomeStaysData'
+import { BestPromotionData } from './Data/BestPromotionData'
 import { AiTwotoneStar } from 'react-icons/ai'
 import { AiOutlineHeart } from 'react-icons/ai'
 import { BsBookmark } from 'react-icons/bs'
@@ -12,7 +12,7 @@ export default function BestPromotion() {
         <div className='text-[#2ba189] font-bold text-[25px] mb-3'>Our best promotion tours</div>
         <div className='mt-4 grid grid-cols-3 gap-3 justify-center bg-[#eeeeee]'>
             {
-                HomeStaysData.map((item) => {
+                BestPromotionData.map((item) => {
                     return(
                         <div className='bg-[white] rounded-3xl  pb-[40px]'>
                             <div><img className='rounded-3xl w-[510px] h-[300px] object-cover' src={item.photo} /></div>
