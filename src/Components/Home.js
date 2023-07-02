@@ -5,6 +5,7 @@ import BodyText from './Sections/BodyText'
 import Navbar from './Sections/Navbar'
 import TopDestination from './TopDestination'
 import AfricaMarket from './AfricaMarket'
+import BestPromotion from './BestPromotion'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
     <TopDestination />
     <BestSeller />
     <HomeStays />
+    <BestPromotion />
     <AfricaMarket />
    </div>
   )
