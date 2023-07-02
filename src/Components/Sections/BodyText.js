@@ -8,7 +8,7 @@ export default function BodyText() {
 <div>
 </div>
         <div className=' w-[1000px] text-left py-[240px] px-[190px]'>
-            <div className='text-[60px] text-white'>Discover Your Favorite <span className='text-[#2ba189]'>Place</span> with Us</div>
+            <div className='text-[50px] text-white'>Discover Your Favorite <span className='text-[#2ba189]'>Place</span> with Us</div>
         </div>
         <div className=' w-[1000px] py-[200px] px-[150px] text-left '>
             <div className='bg-white rounded-2xl px-4 py-4 space-y-3'>
