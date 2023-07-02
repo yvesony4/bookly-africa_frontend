@@ -1,7 +1,6 @@
-import Saint from '../../assets/booklimages/homepage/saint.jpg'
 export const BestSellerData = [
     {
-        photo: 'http://localhost:3000/rubavu.jpg',
+        photo: 'http://localhost:3000/ubumwe.jpg',
         rate: '4.4',
         HotelName: 'Ubumwe Grand Hotel',
         location: 'Kigali,Rwanda',
@@ -11,7 +10,7 @@ export const BestSellerData = [
         discount: '199',
     },
     {
-        photo: 'http://localhost:3000/rubavu.jpg',
+        photo: 'http://localhost:3000/mariot.jpg',
         rate: '4.4',
         HotelName: 'Kigali Marriot Hotel',
         location: 'Kigali,Rwanda',
@@ -21,7 +20,7 @@ export const BestSellerData = [
         discount: '199',
     },
     {
-        photo: 'http://localhost:3000/rubavu.jpg',
+        photo: 'http://localhost:3000/saint.jpg',
         rate: '4.4',
         HotelName: 'Saint Fmille Hotel',
         location: 'Kigali,Rwanda',
@@ -31,7 +30,7 @@ export const BestSellerData = [
         discount: '199',
     },
     {
-        photo: 'http://localhost:3000/rubavu.jpg',
+        photo: 'http://localhost:3000/mhotel.jpg',
         rate: '4.4',
         HotelName: 'M Hotel',
         location: 'Kigali,Rwanda',
@@ -41,7 +40,7 @@ export const BestSellerData = [
         discount: '199',
     },
     {
-        photo: 'http://localhost:3000/rubavu.jpg',
+        photo: 'http://localhost:3000/dove.jpg',
         rate: '4.4',
         HotelName: 'Dove Hotel Kigali',
         location: 'Kigali,Rwanda',
@@ -51,7 +50,7 @@ export const BestSellerData = [
         discount: '199',
     },
     {
-        photo: 'http://localhost:3000/rubavu.jpg',
+        photo: 'http://localhost:3000/boa.jpg',
         rate: '4.4',
         HotelName: 'Baobab Hotel Kigal',
         location: 'Kigali,Rwanda',

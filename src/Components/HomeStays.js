@@ -1,33 +1,20 @@
 import React from 'react'
-import Vector243 from '../assets/booklimages/Vector243.png'
-import { BestSellerData } from './Data/BestSellerData'
+import { HomeStaysData } from './Data/HomeStaysData'
 import { AiTwotoneStar } from 'react-icons/ai'
 import { AiOutlineHeart } from 'react-icons/ai'
 import { BsBookmark } from 'react-icons/bs'
 import { BsClock } from 'react-icons/bs'
 import { FaBed } from 'react-icons/fa'
-import { AiOutlineArrowRight } from 'react-icons/ai'
 
-export default function BestSeller() {
+export default function HomeStays() {
   return (
-    <div>
-        <div className='bg-[#d3f8f2] px-[100px] pt-[20px]'>
-
-        <div className='flex justify-between'>
-            <div>
-                <div className='text-[#31ac9e] text-[30px]'><b>BestSeller Hotels</b></div>
-                <div className='mb-5'><img className='w-[230px]' src={Vector243} /></div>
-            </div>
-            <div className='flex gap-2 pt-3'>
-                <div>See All</div>
-                <div className='pt-1'><AiOutlineArrowRight className='text-[#2ba189]' /></div>
-            </div>
-        </div>
-        <div className='mt-4 grid grid-cols-3 gap-5 justify-center'>
+    <div className='px-[100px] pt-[60px] bg-[#eeeeee]'>
+        <div className='text-[#2ba189] font-bold text-[25px] mb-3'>HomeStays</div>
+        <div className='mt-4 grid grid-cols-3 gap-3 justify-center bg-[#eeeeee]'>
             {
-                BestSellerData.map((item) => {
+                HomeStaysData.map((item) => {
                     return(
-                        <div className='bg-white rounded-3xl  pb-[40px]'>
+                        <div className='bg-[white] rounded-3xl  pb-[40px]'>
                             <div><img className='rounded-3xl w-[510px] h-[300px] object-cover' src={item.photo} /></div>
                             <div className='flex justify-between px-6 mt-1'>
                             <div className='flex space-x-2'>
@@ -69,13 +56,11 @@ export default function BestSeller() {
                     )
                 })
             }
-        </div>
 
    <div>
     <button className='bg-[#2ba189] px-12 my-8 py-2 rounded text-white'>View All</button>
    </div>
-
-    </div>
+        </div>
     </div>
   )
 }
