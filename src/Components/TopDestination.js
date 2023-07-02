@@ -8,7 +8,7 @@ export default function TopDestination() {
         <div className='mb-5'><img className='w-[230px]' src={Vector243} /></div>
    <div className='flex'>
    <div>
-   <div className="bg-[url('http://localhost:3002/rubavu.jpg')] w-[344px] h-[300px] bg-cover bg-center rounded-3xl pt-6 px-6">
+   <div className="bg-[url('http://localhost:3000/rubavu.jpg')] w-[344px] h-[300px] bg-cover bg-center rounded-3xl pt-6 px-6">
         <div className='px-6 py-1 bg-[#f6611f] text-white w-[143px] rounded-full'>Deal from 5$</div>
         <div className='mt-[140px] text-white'>
             <div className='text-[20px]'>Rubavu - Rwanda</div>
@@ -20,7 +20,7 @@ export default function TopDestination() {
         </div>
         
     </div>
-    <div className="bg-[url('http://localhost:3002/musanze.jpg')] w-[344px] h-[300px] bg-cover bg-center rounded-3xl pt-6 px-6 mt-7">
+    <div className="bg-[url('http://localhost:3000/musanze.jpg')] w-[344px] h-[300px] bg-cover bg-center rounded-3xl pt-6 px-6 mt-7">
         <div className='px-6 py-1 bg-[#f6611f] text-white w-[143px] rounded-full'>Deal from 5$</div>
         <div className='mt-[140px] text-white'>
             <div className='text-[20px]'>Musanze - Rwanda</div>
@@ -34,7 +34,7 @@ export default function TopDestination() {
     </div>
    </div>
    <div className='w-full pr-[28px]'>
-   <div className="bg-[url('http://localhost:3002/kigali.jpg')] w-full h-[630px] bg-cover bg-center rounded-3xl pt-6 px-6 ml-7">
+   <div className="bg-[url('http://localhost:3000/kigali.jpg')] w-full h-[630px] bg-cover bg-center rounded-3xl pt-6 px-6 ml-7">
         <div className='px-6 py-1 bg-[#f6611f] text-white w-[143px] rounded-full'>Deal from 5$</div>
         <div className='mt-[470px] text-white'>
             <div className='text-[20px]'>Kigali - Rwanda</div>
@@ -48,7 +48,7 @@ export default function TopDestination() {
     </div>
    </div>
    <div>
-   <div className="bg-[url('http://localhost:3002/nairobi.jpg')] w-[500px] h-[300px] bg-cover bg-center rounded-3xl pt-6 px-6 ml-7">
+   <div className="bg-[url('http://localhost:3000/nairobi.jpg')] w-[500px] h-[300px] bg-cover bg-center rounded-3xl pt-6 px-6 ml-7">
         <div className='px-6 py-1 bg-[#f6611f] text-white w-[143px] rounded-full'>Deal from 5$</div>
         <div className='mt-[140px] text-white'>
             <div className='text-[20px]'>Nairobi - Kenya</div>
@@ -61,7 +61,7 @@ export default function TopDestination() {
         
     </div>
     <div className='flex'>
-    <div className="bg-[url('http://localhost:3002/kampala.jpg')] w-[214px] h-[300px] bg-cover bg-center rounded-3xl mt-7 ml-7 pt-6 px-6">
+    <div className="bg-[url('http://localhost:3000/kampala.jpg')] w-[214px] h-[300px] bg-cover bg-center rounded-3xl mt-7 ml-7 pt-6 px-6">
         <div className='px-6 py-1 bg-[#f6611f] text-white w-[143px] rounded-full'>Deal from 5$</div>
         <div className='mt-[140px] text-white'>
             <div className='text-[20px]'>Kampala - Uganda</div>
@@ -73,7 +73,7 @@ export default function TopDestination() {
         </div>
         
     </div>
-    <div className="bg-[url('http://localhost:3002/dar.jpg')] w-[260px] h-[300px] bg-cover bg-center rounded-3xl mt-7 ml-7 pt-6 px-6">
+    <div className="bg-[url('http://localhost:3000/dar.jpg')] w-[260px] h-[300px] bg-cover bg-center rounded-3xl mt-7 ml-7 pt-6 px-6">
         <div className='px-6 py-1 bg-[#f6611f] text-white w-[143px] rounded-full'>Deal from 5$</div>
         <div className='mt-[140px] text-white'>
             <div className='text-[20px]'>Dar es Salam - Tanzania</div>

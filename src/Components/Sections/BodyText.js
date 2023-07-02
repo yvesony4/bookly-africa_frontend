@@ -4,7 +4,7 @@ import 'flowbite';
 export default function BodyText() {
   return (
     <div>
-        <div className="flex bg-[url('http://localhost:3002/black-woman-with-suitcase-airport1.jpg')] bg-cover bg-center ">
+        <div className="flex bg-[url('http://localhost:3000/black-woman-with-suitcase-airport1.jpg')] bg-cover bg-center ">
 <div>
 </div>
         <div className=' w-[1000px] text-left py-[240px] px-[190px]'>
