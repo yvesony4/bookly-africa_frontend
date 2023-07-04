@@ -3,10 +3,12 @@ import { BiSearch } from 'react-icons/bi'
 import { BiBed } from 'react-icons/bi'
 import { SlCalender } from 'react-icons/sl'
 import { BsFillPersonFill } from 'react-icons/bs'
+import StaysnearYou from '../StaysnearYou'
 
 export default function Homestays() {
   return (
-    <div className='mt-24 pt-1'>
+    <div>
+      <div className='mt-24 pt-1'>
       <div className="bg-[url('http://localhost:3000/staying.jpg')] bg-cover my-8 px-[300px] py-[85px]">
         <div>
         <h2 className='text-white pb-[13px] text-[23px]'>Where are you staying?</h2>
@@ -35,6 +37,8 @@ export default function Homestays() {
           <div className='py-1 px-2 bg-[#2ba189] font-bold rounded pt-[9px]'><BiSearch /></div>
         </div>
       </div>
+    </div>
+    <div><StaysnearYou /></div>
     </div>
   )
 }
