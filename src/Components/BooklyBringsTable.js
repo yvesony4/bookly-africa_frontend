@@ -1,6 +1,5 @@
 import React from 'react'
 import { BooklyBringsTableData } from './Data/BooklyBringsTableData'
-import { AiTwotoneStar } from 'react-icons/ai'
 import Vector243 from '../assets/booklimages/Vector243.png'
 
 export default function BooklyBringsTable() {
@@ -19,7 +18,7 @@ export default function BooklyBringsTable() {
                 BooklyBringsTableData.map((item) => {
                     return(
                         <div className='bg-white rounded border px-3 py-3'>
-                            <div className='bg-[#31ac9e] w-9 px-3 text-white py-1 rounded'>sf</div>
+                            <div className='bg-[#31ac9e] w-9 px-3 text-white py-1 rounded'>{item.photo}</div>
                             <div className='  mt-1'>
                             <div  className='mb-1 text-[12px] font-bold'>{item.HotelName}</div>
                             <div className='flex gap-2'>

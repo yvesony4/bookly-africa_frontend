@@ -1,12 +1,16 @@
+import { SiTestcafe } from 'react-icons/si'
+import { GiShieldReflect } from 'react-icons/gi'
+import { AiOutlineStock } from 'react-icons/ai'
+import { MdFilterListOff } from 'react-icons/md'
 export const BooklyBringsTableData = [
     {
-        photo: 'http://localhost:3000/ubumwe.jpg',
+        photo: <SiTestcafe />,
         rate: 'Quickly compare deals from millions of hotels',
         HotelName: 'Search hundreds of sites',
         Kilo: '139',
     },
     {
-        photo: 'http://localhost:3000/mariot.jpg',
+        photo: <GiShieldReflect />,
         rate: 'Quickly compare deals from millions of hotels',
         HotelName: 'Book with flexibility',
         location: '',
@@ -16,7 +20,7 @@ export const BooklyBringsTableData = [
         discount: '199',
     },
     {
-        photo: 'http://localhost:3000/saint.jpg',
+        photo: <AiOutlineStock />,
         rate: 'Quickly compare deals from millions of hotels',
         HotelName: 'Track prices',
         location: '',
@@ -26,7 +30,7 @@ export const BooklyBringsTableData = [
         discount: '199',
     },
     {
-        photo: 'http://localhost:3000/mhotel.jpg',
+        photo: <MdFilterListOff />,
         rate: 'Quickly compare deals from millions of hotels',
         HotelName: 'Filter for what you want',
         location: 'Downtown',
