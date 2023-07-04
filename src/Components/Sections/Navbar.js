@@ -3,8 +3,11 @@ import usaLogo from '../../assets/usa.png'
 import { RxTriangleDown } from 'react-icons/rx'
 import logo_bookly from '../../assets/booklimages/logo_bookly.png'
 import { navData } from '../Data/navData'
+import { Link, useLocation } from 'react-router-dom'
 
 export default function Navbar() {
+    const location = useLocation();
+    const active = location.pathname
   return (
     <div class="flex justify-center">
         <div className='flex items-center justify-between text-white px-[110px] text-[12px] header'>
@@ -18,10 +21,12 @@ export default function Navbar() {
                 {
                     navData.map((item) => {
                         return(
-                            <div className='flex gap-1 hover:bg-teal-500 px-4 py-1 rounded'>
+                            <Link to={item.path}>
+                            <div className={`${active === item.path ? "bg-teal-500" : null} flex gap-1 hover:bg-teal-500 px-4 py-1 rounded`}>
                                 <div className='py-[6px]'>{item.logoNew}</div>
                                 <div className='py-1'>{item.Hotels}</div>
                             </div>
+                            </Link>
                         )
                     })
                 }
