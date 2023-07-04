@@ -1,19 +1,17 @@
 import React from 'react'
 import { StaysnearYouData } from './Data/StaysnearYouData'
 import { AiTwotoneStar } from 'react-icons/ai'
-import FavoriteHotels from './FavoriteHotels'
-import BooklyBringsTable from './BooklyBringsTable'
+import Vector243 from '../assets/booklimages/Vector243.png'
 
-export default function StaysnearYou() {
+export default function FavoriteHotels() {
   return (
     <div>
-        <BooklyBringsTable />
         <div className='px-[100px]'>
 
         <div className='flex justify-between'>
             <div>
-                <div className='text-[#31ac9e] text-[20px]'><b>Stays near you</b></div>
-                <div className='mb-5 text-[12px]'>Sat, Jun 3 - Sun, Jun 4</div>
+                <div className='text-[#31ac9e] text-[22px]'><b>Favorite Hotels around the globe</b></div>
+                <div className='mb-5'><img className='w-[230px]' src={Vector243} /></div>
             </div>
             <div>
                 <div className='bg-[#2ba189] rounded px-3 text-white text-[10px] py-[6px]'>See All</div>
@@ -46,7 +44,6 @@ export default function StaysnearYou() {
             }
         </div>
     </div>
-    <FavoriteHotels />
     </div>
   )
 }
